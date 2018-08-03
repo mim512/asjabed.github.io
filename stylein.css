@@ -1,0 +1,180 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color:#b6bedc;
+  
+}
+#container{
+    width:960px;
+	margin:15px auto;
+}
+#header{
+	background-color:#FAB72A;
+	padding:15px;
+	border-bottom:5px solid #6B710E;
+}
+#header h2{
+	color:#FFFFF1;
+	font-family:georgia;
+   font-size:25px; 
+}
+#header p{
+	color:#788420;
+    font-size:15px;
+}
+
+.nav{
+	background-color:#fff;
+	height:37px;
+	border-bottom:5px solid #6B710E;
+	font-size:14px;
+}
+.nav ul{
+	background-color:#fff;
+	list-style-type:none;
+	z-index: 70;
+}
+.nav ul li{
+	float:left;
+	border-right:1px solid #6B710E;
+	position:relative;
+}
+.nav ul li:last-child{
+	border-right:none;
+}
+.nav ul li a{
+	text-decoration:none;
+	color:#333506;
+	display:block;
+	padding:10px 20px;
+	font-family:arial;
+}
+.nav ul li a:hover{
+	color:#6B710E;
+}
+.nav ul li ul{
+	position:absolute;
+	left:-99999px;
+
+}
+.nav ul li ul li:first-child{
+	border-top:1px solid #6B710E;
+}
+.nav ul li ul li{
+		float:none;
+		border-right:none;
+		border-bottom:1px solid #6B710E;
+}
+.nav ul li ul li a{
+	padding-left:0;
+	width:155px;
+	
+}
+.nav ul li:hover ul{
+	left:0;
+}
+section{
+    z-index:30;
+}
+#content_wrapper{
+	background-color:#fff;
+	
+	padding:10px;
+	overflow:hidden;
+	
+}
+
+#content{
+	width:600px;
+	margin-right:10px;
+	float:left;
+}
+#content h2{
+	color:#6B710E;
+	font-family:arial;
+	margin-bottom:5px;
+	margin-top:8px;
+	font-size:20px;
+}
+#content p{
+    margin:15px auto;
+}
+#content img{
+    height:200px;
+    width:300px;
+   
+}
+#content figure{
+    Width:300px;
+    background-color:#ddd;
+    padding:10px;
+     margin:0 auto;
+    display:block;
+}
+#content figcaption{
+    text-align: center;
+    color: #0ba230;
+    font-family:georgia;
+    font-weight: bold;
+}
+blockquote{
+    margin-left:50px;
+    background-color:#ddd;
+    padding:10px;
+    padding-left:20px;
+    border-left:2px solid #dc0e0e;
+    margin-bottom:20px
+}
+#sidebar{
+	width:300px;
+	float:left;
+    margin-left:30px
+}
+#sidebar ul{
+	list-style-type:circle;
+	
+}
+
+#sidebar ul li a{
+	text-decoration:none;
+	color:#6B710E;
+	padding:3px;
+	display:block;
+}
+#sidebar h2{
+	color:#6B710E;
+	font-family:arial;
+	margin-bottom:5px;
+    font-size:20px;
+}
+
+#footer{
+	background-color:#635548;
+	padding:10px;
+	text-align:center;
+	
+}
+#footer p{
+	color:#fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
